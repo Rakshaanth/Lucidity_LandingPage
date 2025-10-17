@@ -1,6 +1,6 @@
 /* Base */
 *{margin:0;padding:0;box-sizing:border-box;}
-html,body{height:100%;font-family:"Playfair Display", serif;background:#FBFAF4;color:#091715;scroll-behavior:smooth;overflow-x:hidden;position:relative;}
+html,body{height:100%;font-family:"Playfair Display", serif;background:#FBFAF4;color:#208C87;scroll-behavior:smooth;overflow-x:hidden;position:relative;}
 
 /* Grain overlay */
 .grain{position:fixed;inset:0;background:url("https://grainy-gradients.vercel.app/noise.svg");mix-blend-mode:overlay;opacity:0.15;pointer-events:none;z-index:99;}
@@ -8,7 +8,7 @@ html,body{height:100%;font-family:"Playfair Display", serif;background:#FBFAF4;c
 /* Hero */
 .hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;}
 .title{font-size:5rem;letter-spacing:-0.05em;animation:floatIn 2s cubic-bezier(0.23,1,0.32,1) forwards;}
-.subtitle{font-family:"Inter",sans-serif;font-size:1rem;color:#208C87;letter-spacing:0.15em;text-transform:uppercase;margin-top:1rem;opacity:0;animation:fadeSlide 2.5s ease 1s forwards;}
+.subtitle{font-family:"Inter",sans-serif;font-size:1rem;color:#091715;letter-spacing:0.15em;text-transform:uppercase;margin-top:1rem;opacity:0;animation:fadeSlide 2.5s ease 1s forwards;}
 
 /* Torn-page sections */
 .torn-page{
@@ -63,3 +63,4 @@ footer{text-align:center;padding:5rem 0;font-size:0.9rem;font-family:"Inter",san
   .torn-page .img.placeholder{height:150px;}
   .cta-content h2{font-size:2rem;}
 }
+
